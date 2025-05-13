@@ -54,7 +54,7 @@ This repository includes several processed data files representing key analytica
 *   **Multimodal Segregation Shapefiles (`Multimodal segregation measures/`)**: Geospatial data representing the spatial distribution of segregation metrics.
     *   `Active mode PSM.shp`, `Private mode PSM.shp`, `Bus mode PSM.shp`, `Railway mode PSM.shp`: Contain mode-specific PSM values (`*_PSM` fields), distance to city center (`dist_to_c`), and geometry.
     *   `MUI.shp`: Contains the Multimodal Uniformity Index (`MUI`), distance to city center (`dist_to_c`), and geometry.
-*   **Segregation dynamics across urban contexts.csv**: Contains hourly segregation metrics (PSM for each mode, MUI) and mobility flow direction angles, broken down by urban context (Downtown, Peri-urban, Outskirts) over a day.
+*   **`Segregation dynamics across urban contexts.csv`**: Contains hourly segregation metrics (PSM for each mode, MUI) and mobility flow direction angles, broken down by urban context (Downtown, Peri-urban, Outskirts) over a day.
 *   **OLS Model Results (`OLS model - *.csv`)**: Tabulated regression results from OLS models linking PSM/MUI to urban features. Includes coefficients across different hours and day types for various dependent variables (`PSM active`, `PSM private`, `PSM bus`, `PSM subway`, `MUI`).
 *   **Policy Simulation Results (`Policy simulation - *.csv`)**: Tabulated outcomes of policy simulations (Private Car Control, Public Transport Subsidy, Promoting Active Travel). Shows changes in mode-specific PSM, mode usage population, and average travel costs under varying policy parameters (`Beta_delta`).
 
